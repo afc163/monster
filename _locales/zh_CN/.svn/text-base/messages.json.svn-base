@@ -1,0 +1,512 @@
+{
+   "description": {
+      "message": "Monster是Alipay UED推出的网站代码分析、质量检测及评分的浏览器扩展.智能分析CSS、JS、HTML内容，生动形象展示网页得分情况(类似YSlow)。"
+   },
+   "title": {
+      "message": "Monster for Chrome.网页代码质量分析。"
+   },
+    "dtlnk": {
+      "message": "详细"
+   }, 
+    "backlnk": {
+      "message": "点击返回"
+   }, 
+    "closelnk": {
+      "message": "关闭"
+   },
+    "minmax": {
+      "message": "最大化/最小化"
+   },
+   "optionlnk": {
+      "message": "选项"
+   },  
+    "errors": {
+      "message": "个错误"
+   },
+   "warns": {
+      "message": "个警告"
+   },
+   "messages": {
+      "message": "个提示"
+   },
+   "hilightelements": {
+      "message": "高亮所有错误标签边框"
+   },   
+    "showerrlist": {
+      "message": "点击查看错误列表"
+   },
+   "showwarnlist": {
+      "message": "点击警告列表"
+   },
+   "showsuglist": {
+      "message": "点击建议列表"
+   },
+   "showalllist": {
+      "message": "点击查看综合列表"
+   },
+	"useimport": {
+      "message": "★  有 $number$ 处使用了 @import 语句，禁止使用该语句导入 CSS。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+
+   },
+	"maxelement": {
+      "message": "在当前文档中总共使用了 $number$ 个标签，超出了最大标签 $maxlen$ 个的限制。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"nomincss": {
+      "message": "有 $number$ 个 CSS 文档没有压缩或压缩力度不够。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"nominjs": {
+      "message": "有 $number$ 个 javascript 文档没有压缩或压缩力度不够。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+    "nominhtml": {
+      "message": "html 文档没有压缩或压缩力度不够。"
+   },
+    "htmlsize": {
+      "message": "html 文档的大小为 $filesize$KB。",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "csssize": {
+      "message": "CSS 文档的总大小为 $filesize$KB，不包含 import 语句导入的 CSS 文件 $detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },
+   "jssize": {
+      "message": "外部 javascript 文档的总大小为 $filesize$KB $detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },   
+   "maxcookie": {
+      "message": "当前Cookie大小为 $number$KB，请限制在 $maxlen$KB 以内。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "maxsizebgimg": {
+      "message": "."
+   },
+	"maxbgimg": {
+      "message": "外部 CSS 图片引用达到了 $number$ 个, 应当限制为 $maxlen$ 个以内 $detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		},
+		"detail": {
+			"content": "$3",
+			"example": "."
+		}
+	  }
+   },
+	"maxjs": {
+      "message": "外部Script文件达到了 $number$ 个, 请限制在 $maxlen$ 个以内。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"maxcss": {
+      "message": "外部 StyleSheet 引用达到了 $number$ 个, 应当限制为 $maxlen$ 个以内。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "forminform": {
+      "message": "★  禁止在 form 元素中嵌套 form 元素。"
+   },
+   "nolabel": {
+      "message": "★  有 $number$ 个 表单内标签没有添加对应的 label 标签。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "nosubmit": {
+      "message": "有 $number$ 个 form 标签没有添加 type 为 submit 的 input 标签。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inputhiddenerr": {
+      "message": "有 $number$ 个 input[type=hidden] 可能嵌套在 tr、thead、tbody、table标签中间。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "cssexprssion": {
+      "message": "$detail$ 中使用了 $number$次 expression。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"nomedia": {
+      "message": "★  有 $number$ 个 link style 标签没有添加 media 属性。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"doctypeerr": {
+      "message": "文档 doctype不为 〈!DOCTYPE html〉，请检查doctype。"
+   },
+	"encodingerr": {
+      "message": "文档的必须使用 UTF-8 或 GBK 编码。"
+   },
+   "compatmodeerr": {
+      "message": "文档 compatMode 为 BackCompat，doctype为 $detail$，请检查doctype。",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inlinejs": {
+      "message": "请不要使用直接在标签上添加 inline javascript 事件属性。"
+   },
+   "unsupport": {
+      "message": "★ 请不要使用HTML5不再支持的〈$tag$〉标签。",
+	  "description": ".",
+	  "placeholders": {
+		"tag": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inlineblock": {
+      "message": "★  禁止在 a, p, pre 标签中使用了块级元素作为子标签。"
+   },
+   "ids": {
+      "message": "★  有 $number$ 处的 id 值重复了。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"idsubmit": {
+      "message": "★  有 $number$ 个标签的 id 设置为 submit，该 id 值被禁止。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"scriptinbody": {
+      "message": "有 $number$ 处 script 标签 混合在HTML中间。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"styleinbody": {
+      "message": "★  有 $number$ 处 CSS 或 link[rel=stylesheet] 直接定义在〈body〉里 $detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "metachr": {
+      "message": "★  head 标签的第一个子标签必须指定网页编码，如：〈meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /〉。"
+   },
+   "notfound": {
+      "message": "请求的资源 $detail$ 不存在 状态码：404。",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },   
+   "mixedcontent": {
+      "message": "Mixed http/https content."
+   },   
+   "nosrc": {
+      "message": "★  有 $number$ 个 img 标签未设置 alt 属性或该属性为空。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "haslayout": {
+      "message": "★  有 $number$ 个标记没有触发hasLayout，可能会引起布局问题！$detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },
+   "customerattr": {
+      "message": "★  属性：$tags$ ，没有添加“data-”前缀。",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "emptylinks": {
+      "message": "检测到 $number$ 个链接的 href 属性 为空或未设置。:hover样式，在IE6上可能失效。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "maxlengtherr": {
+      "message": "★ JS生成的input 属性 maxLength 在IE6中大小写敏感。请查看 $tags$。",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },   
+   "labelforerr": {
+      "message": "★ 有 $tags$ 个label关联的输入框ID与for属性值不一致。",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },   
+   "spellingerr": {
+      "message": "文案：“$worderr$”出错，请更正为 “$word$”。",
+	  "description": ".",
+	  "placeholders": {
+		"worderr": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"word" : {
+			"content" : "$2",
+			"example": "."
+		}
+	  }
+   },
+   "nosrchttps": {
+      "message": "★  有 $number$ 个标签必须添加 src 属性且必须使用 https 协议。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "repeatrequest": {
+      "message": "$type$ 文件重复调用，它们是 $detail$。",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"type": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },   
+   "notitle": {
+      "message": "★  head 标签中必须有且仅有一个〈title〉标签。"
+   },
+   "htmlnomin": {
+      "message": "html 文档没有压缩或压缩力度不够。"
+   },   
+   "tagunclosed": {
+      "message": "★  有 $number$ 个 〈$tagname$〉 标签没有关闭。",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"tagname": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "tab_cfg_lnk": {"message": "配置信息"},
+	"tab_uicfg_lnk": {"message": "界面设置"},
+	"tt_rule_max": {"message": "最大规则"},
+	"lbl_max_css": {"message": "最大CSS文件数："},
+	"lbl_max_js": {"message": "最大JS文件数："},
+	"lbl_max_cssbg": {"message": "最大背景图数："},
+	"lbl_max_elements": {"message": "最大HTML标记个数："},
+	"tt_coding_rule": {"message": "编码规则"},
+	"lbl_tag_noclosed": {"message": "检测未关闭标记；"},
+	"lbl_html5_unsupport": {"message": "检测HTML5不支持的标记,如font,s,u"},
+	"lbl_ecoding": {"message": "强制utf-8或gbk编码"},
+	"lbl_mixed_js": {"message": "禁止javascript混合在HTML里面"},
+	"lbl_inline_style": {"message": "禁止inline style"},
+	"lbl_inline_js": {"message": "禁止标签里直接定义JS事件"},
+	"lbl_media_attr": {"message": "<style>必须指定media"},
+	"lbl_alt_attr": {"message": "<img>必须指定alt"},
+	"tt_form_rule": {"message": "表单规则"},
+	"lbl_form_in_form": {"message": "禁止form嵌套form"},
+	"lbl_no_submit": {"message": "form中有且只有一个submit标签"},
+	"lbl_no_label": {"message": "form下控件是否有对应的label标签"},
+	"lbl_id_submit": {"message": "禁止form标签中出现ID=\"submit\"的标签"},
+	"tt_other_rule": {"message": "其他规则"},
+	"lbl_check_doctype": {"message": "检测 doctype(compatMode)"},
+	"lbl_html5_dtd": {"message": "强制使用HTML5 DTD"},
+	"lbl_http_mixed": {"message": "禁止https与http混用"},
+	"lbl_no_import": {"message": "禁止@import CSS"},
+	"lbl_inline_block": {"message": "禁止内联标签嵌套块级标签，如<a>嵌套div"},
+	"lbl_ids": {"message": "禁止重复的 ID"},
+	"lbl_minified_html": {"message": "禁止未压缩HTML"},
+	"lbl_max_html": {"message": "最大HTML文件尺寸"},
+	"lbl_minified_css": {"message": "禁止未压缩CSS文件"},
+	"lbl_minified_js": {"message": "禁止未压缩JS文件"},
+	"lbl_css_expression": {"message": "禁止使用CSS expression"},
+	"lbl_cookie": {"message": "强制Cookie限制在30KB以内"},
+	"lbl_border_color": {"message": "边框色："},
+	"lbl_border_style": {"message": "边框线型："},
+	"lbl_border_width": {"message": "边框粗细："},
+	"lbl_bg_set": {"message": "背景设置："},
+	"lbl_bg_style": {"message": "URL或样式。"},
+	"btn_save": {"message": "保存.."},
+	"tip_bg_img": {"message": "可以设置成图片URL或background样式。"},
+	"btn_reset_default": {"message": "还原默认设置"},
+	"btn_clear_custom": {"message": "清除自定义配置"},	
+	"tip_saved": {"message": "保存好了 ^^"},
+	"tip_all_reset": {"message": "所有项已恢复成默认值 ^^"}
+}

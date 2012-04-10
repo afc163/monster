@@ -1,0 +1,339 @@
+html .mst-main{
+	background-color: #000; 
+	opacity : 0.85; 
+	position: fixed; 
+	top: 5px; 
+	left: 100px; 
+	z-index: 99999; 
+    font-family: Arial,serif; 
+	color: white; 	
+	font-size: 13px; 
+	width : 800px; 
+	overflow:hidden;
+	text-align: left; 
+	line-height: 1.2;
+	-webkit-box-shadow:1px 1px 10px rgba(00,00,00,.25);
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px; 
+	-moz-box-shadow:1px 1px 10px rgba(00,00,00,.25);/* gkiiegmlmlhdlldgcajcdfjgcacdpnih */
+}
+#monster_main a
+{
+    color:#46A7F6 !important;   
+}
+#monster_main a:hover
+{
+    color:#3596e5 !important;
+    text-decoration:none !important;
+}
+html .mst-title{
+    font:600 16px/18px "Microsoft JHenghei","Microsoft Yahei"; 
+    float: left;
+	margin: 10px 0px 10px 60px !important;
+	padding: 0 !important;
+}
+html .mst-content{
+	float: left; 
+	margin: 20px !important; 
+	width: 101%;
+	overflow: auto; 
+	clear: both; 
+	line-height: 5;
+	display:none;
+}
+html .mst-close,html .mst-min,html .mst-option,
+html .mst-err,html .mst-warn,html .mst-info,
+html .mst-goto{
+	background:url(chrome-extension://dcnccmmdjdapgpnjhdakbjdncokmgonf/mst-icon.png) -999em -999em no-repeat;/*  */
+}
+html .mst-close,html .mst-min,html .mst-option{
+	float: right;
+	display:inline-block;
+	width: 20px; 
+	height: 20px;
+	opacity: .5;
+	background-color: blue;
+	cursor: pointer;
+}
+html .mst-close{
+	margin: 10px 10px 10px 0 !important; 
+	background-position:-25px 0;
+}
+html .mst-min{
+	margin: 10px 5px 10px 0 !important; 
+}
+html .mst-option{
+	margin: 10px 5px 10px 0 !important;
+	background-color: transparent;
+	background-position:-114px 0;
+	text-indent:-999em;
+}
+html .mst-err,html .mst-warn{
+	border-top: 1px dotted #444;
+	clear: both;
+}
+html .mst-err{
+	background-position:0 -52px;
+}
+html .mst-warn{
+	background-position:0 -146px;
+}
+html .mst-info{
+	background-position:0 -24px;
+}
+html .mst-goto{
+	opacity: .5;
+	background-position:0 -214px;
+}
+html .mst-err p,html .mst-warn p,html .mst-info p{
+	margin: 0; 
+	margin-left: 20px !important; 
+	padding: 8px 0 !important; 
+	float: left !important; 
+	line-height: 1.2;
+	font-size: 13px; 
+	color: white;
+}
+html .mst-score{
+	position:absolute;
+	top:6px;
+	bottom:auto;
+	left:10px;
+	text-align:right;
+	font:18px Georgia,serif;
+	color:#ffa;
+}
+html .mst-score-max{
+    top:auto;
+    right:10px;
+    font-size:50px;
+    bottom:10px;
+}
+html .mst-processbar
+{
+    width:50px;
+    height:20px;
+    background:#46A7F6;
+    -webkit-border-radius: 7px; 
+}
+/* splash aeoafjclejfhgacdalflmlimikeofioa */
+html .mst-splash{margin:30px 35px 0 !important;padding:0 !important;overflow:hidden !important;}
+html .mst-splash li{list-style-type:none !important;width:350px;height:225px;overflow:hidden;margin:0 28px 24px 0 !important;padding:0;position:relative !important;float:left !important;background-image:url(chrome-extension://dcnccmmdjdapgpnjhdakbjdncokmgonf/bg-mst-splash.png) !important;background-repeat:no-repeat !important;cursor:pointer !important;}
+html .mst-splash li:hover{opacity:.5;}
+html .mst-splash .mst-spl-txt{position:absolute;bottom:0;right:0;float:right;padding:0 0 0 20px !important;background:#000;font:600 33px "Segoe UI";color:#a0a0a0;}
+html .mst-splash .mst-spl-err{background-position:0 0 !important;}
+html .mst-splash .mst-spl-warn{background-position:0 -229px !important;margin-right:0 !important;}
+html .mst-splash .mst-spl-info{background-position:0 -459px !important;}
+html .mst-splash .mst-spl-score{background-position:-999em -999em !important;margin-right:0 !important;}
+
+html .mst-splash .mst-spl-txt span{position:absolute;left:-15px;top:-18px;font:55px Georgia,serif;}
+html .mst-spl-err span{color:red;} 
+html .mst-spl-warn span{color:#ff0;} 
+html .mst-spl-info span{color:#46A7F6}
+html .mst-spl-score span{position:absolute;bottom:0;right:0;font:100px Georgia,serif;}
+html .mst-spl-back{position:absolute;bottom:250px;right:0;padding:0 5px 0 10px;font:600 33px "Segoe UI";color:#222;background:#fff;float:left;cursor:pointer;-webkit-box-shadow:1px 1px 10px rgba(00,00,00,.25); -moz-box-shadow:1px 1px 10px rgba(00,00,00,.25);}
+
+html .mst-view-pl{
+    position:fixed; 
+    top:0;
+    left:0;
+    z-index: 99990; 
+    height:100%;
+    width:100%;
+    background:#000;
+    opacity : .9;
+}
+html .mst-file-item
+{
+    background-color:#46A7F6; 
+	z-index: 99999; 
+    font-family: Arial,serif; 
+	color: white; 	
+	font-size: 13px; 
+    -webkit-box-shadow:1px 1px 10px rgba(00,00,00,.85);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px; 
+	-moz-box-shadow:1px 1px 10px rgba(00,00,00,.85);
+	margin-bottom:5px;
+	padding:5px;
+	width:800px;
+	position:absolute;
+}
+html .mst-file-item .mst-furl
+{
+    display:block;
+    width:650px;
+    overflow:hidden;
+	white-space:nowrap;
+	font-weight:600;
+}
+html .mst-file-item .mst-fsize
+{
+    font:30px Georgia,serif;
+    position:absolute;
+    right:10px;
+    top:-3px;
+    color:#ff0;
+}
+html .mst-file-item .mst-mdtime
+{
+    font:600 12px/11px Tahoma;
+    position:absolute;
+    right:-130px;
+    top:8px;
+    color:Red;
+    display:block;
+    width:120px;
+    overflow:hidden;
+}
+
+html .mst-body-mixed {
+	position:absolute;
+	z-index:99999;
+	/* top:-20px; */
+	padding:15px 30px !important;
+	margin:20px auto !important;
+	color:#fff;
+	opacity:.9;
+	font:12px/1.5 "Courier New";
+	background:#5a8f00;
+	
+	clear:both;
+	/* css3 */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+
+	background:-webkit-gradient(linear, left top, left bottom, from(#b8db29), to(#5a8f00));
+	background:-moz-linear-gradient(top, #b8db29, #5a8f00);
+	background:-o-linear-gradient(top, #b8db29, #5a8f00);
+	background:linear-gradient(top, #b8db29, #5a8f00);
+	white-space:pre;
+	text-align:left;
+}
+
+html .mst-body-mixed + p {margin:15px 0 2em 50px; font-style:italic;}
+
+/* creates the triangle */
+html .mst-body-mixed:after {
+	content:"\00a0";
+	display:block;
+	position:absolute;
+	bottom:-20px;
+	left:50px;
+	width:0;
+	height:0;
+	border-width:0 20px 20px 0px;
+	border-style:solid;
+	border-color:transparent #5a8f00;
+}
+html .mst-body-mixed span
+{
+    font:50px/40px Georgia,serif;
+    padding-right:10px;
+    background:url(chrome-extension://dcnccmmdjdapgpnjhdakbjdncokmgonf/mst-icon.png) right bottom no-repeat;
+    cursor:pointer;
+}
+html .mst-body-mixed em{
+    position:absolute;
+    right:5px;
+    top:5px;
+    display:block;
+    width:15px;
+    height:15px;
+    background:url(chrome-extension://dcnccmmdjdapgpnjhdakbjdncokmgonf/mst-icon.png) left bottom no-repeat;
+    cursor:pointer;
+ }
+html .mst-body-mixed-ctr{overflow:hidden;width:600px;}
+
+html .mst-body-mixed-err{
+    position:absolute;
+    background:#c00;
+	background:-webkit-gradient(linear, left top, left bottom, from(#f60), to(#c00));
+	background:-moz-linear-gradient(top, #f60, #c00);
+	background:-o-linear-gradient(top, #f60, #c00);
+	background:linear-gradient(top, #f60, #c00);
+}
+html .mst-body-mixed-err:after{border-color:transparent #c00;}
+
+html .mst-file-404{
+    position:fixed;
+}
+
+html .mst-body-mixed-warn{
+    position:absolute;
+    background:#f90;
+	background:-webkit-gradient(linear, left top, left bottom, from(#ff0), to(#f90));
+	background:-moz-linear-gradient(top, #ff0, #f90);
+	background:-o-linear-gradient(top, #ff0, #f90);
+	background:linear-gradient(top, #ff0, #f90);
+}
+html .mst-body-mixed-warn:after{border-color:transparent #f90;}
+html .mst-body-mixed-warn .mst-body-mixed-ctr{
+	text-shadow: 1px 1px 2px #aaa;
+}
+
+body .mst-hide{display:none;}
+
+html .mst-view-cssbg-pl li{padding:10px !important;margin:0;background:none;float:left;position:relative;}
+html .mst-view-cssbg-pl .img
+{
+    display:block;
+    width:160px;
+    height:80px;
+    overflow:hidden;
+    background-color:#fff;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    border:1px solid gray;
+}
+html .mst-view-cssbg-pl em
+{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    font:15px/15px Georgia,serif;
+    color:#46A7F6;
+    background:#000;
+}
+html .mst-cssbg-viewer
+{
+   position:absolute;
+   bottom:0;
+   left:0;
+   width:100%;
+   height:180px;
+   padding:10px;
+    -moz-box-shadow:1px 1px 10px rgba(00,00,00,.9);
+}
+
+.mst-marker{
+	position:relative;
+	height:0;
+	width:0;
+	display:block;
+}
+.mst-marker-container{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:500;
+}
+.mst-marker-tabindex .mst-marker-container{
+	background:#ffd6d6;
+	border:1px solid #ffaed6;
+	padding:0 5px;
+	opacity:.8;
+	filter:alpha(opacity=80);
+	-ms-filter:"alpha(opacity=80)";
+}
+.mst-findstring{
+	color:red;
+	background:#FF0;
+}
+.mst-clear{
+	clear:both;
+}

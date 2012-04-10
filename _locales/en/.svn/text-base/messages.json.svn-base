@@ -1,0 +1,512 @@
+{
+   "description": {
+      "message": "Monster analyzes web pages and suggests ways to improve their performance based on a set of rules for high performance web pages."
+   },
+   "title": {
+      "message": "Monster for Chrome."
+   },
+    "dtlnk": {
+      "message": "Detail"
+   }, 
+    "backlnk": {
+      "message": "return"
+   }, 
+    "closelnk": {
+      "message": "close"
+   },
+    "minmax": {
+      "message": "min/max"
+   },
+   "optionlnk": {
+      "message": "option"
+   },  
+    "errors": {
+      "message": "errors"
+   },
+   "warns": {
+      "message": "warns"
+   },
+   "messages": {
+      "message": "messages"
+   },
+   "hilightelements": {
+      "message": "highlight all elements outline"
+   },   
+    "showerrlist": {
+      "message": "show error list"
+   },
+   "showwarnlist": {
+      "message": "show warn list"
+   },
+   "showsuglist": {
+      "message": "show info list"
+   },
+   "showalllist": {
+      "message": "show all list"
+   },
+	"useimport": {
+      "message": "$number$ @import css. Don't use @import.Please choose <link> over @import.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+
+   },
+	"maxelement": {
+      "message": "The number of DOM elements is $number$.No More than $maxlen$,please.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"nomincss": {
+      "message": "$number$ CSS files not minified.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"nominjs": {
+      "message": "$number$ JS file is not minified.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+    "nominhtml": {
+      "message": "HTML file is not minified."
+   },
+    "htmlsize": {
+      "message": "The document filesize $filesize$KB.",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "csssize": {
+      "message": "All CSS filesize $filesize$KB. $detail$",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },
+   "jssize": {
+      "message": "All JS filesize $filesize$KB. $detail$",
+	  "description": ".",
+	  "placeholders": {
+		"filesize": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },   
+   "maxcookie": {
+      "message": "Cookie size is $number$KB. No More than $maxlen$KB,please.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "maxsizebgimg": {
+      "message": "."
+   },
+	"maxbgimg": {
+      "message": "$number$ background-image.No more than $maxlen$,please. $detail$.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		},
+		"detail": {
+			"content": "$3",
+			"example": "."
+		}
+	  }
+   },
+	"maxjs": {
+      "message": "$number$ external JS files.No more than $maxlen$,please.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"maxcss": {
+      "message": "$number$ external CSS files.No more than $maxlen$,please.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"maxlen": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "forminform": {
+      "message": "The <form> cannot contain a tag <form>."
+   },
+   "nolabel": {
+      "message": "$number$ <input> must have a <label> for it.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "nosubmit": {
+      "message": "$number$ <form> do not contain an input[type=submit] element.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inputhiddenerr": {
+      "message": "$number$ input[type=hidden] position error.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "cssexprssion": {
+      "message": "$number$ CSS expression in $detail$.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+	"nomedia": {
+      "message": "$number$ <link> tag must have a 'media' attribute.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"doctypeerr": {
+      "message": "DOCTYPE error."
+   },
+	"encodingerr": {
+      "message": "Encoding error."
+   },
+   "compatmodeerr": {
+      "message": "$detail$:compatMode error.",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inlinejs": {
+      "message": "Inline event handlers should be avoied."
+   },
+   "unsupport": {
+      "message": "The <$tag$> tag is not supported in HTML5.",
+	  "description": ".",
+	  "placeholders": {
+		"tag": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "inlineblock": {
+      "message": "The inline elements should not contain any block-level elements."
+   },
+   "ids": {
+      "message": "$number$ tags have the same ID.ID is not unique.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"idsubmit": {
+      "message": "$number$ input[id=submit].",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"scriptinbody": {
+      "message": "$number$ script block are mixed in the document BODY element,not before this </body> tag.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+	"styleinbody": {
+      "message": "$number$ style sheets are mixed in the document BODY element.$detail$",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "metachr": {
+      "message": "No specifying the character encoding in the first <meta>."
+   },
+   "notfound": {
+      "message": "$detail$: a 404(not found) error.",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+			"content": "$1",
+			"example": "."
+		}
+	  }
+   },   
+   "mixedcontent": {
+      "message": "Mixed http/https content."
+   },   
+   "nosrc": {
+      "message": "$number$ <img> or <iframe> must have a 'src' attribute.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "haslayout": {
+      "message": "$number$ tags hasLayout is false，Detail:$detail$.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"detail": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   }, 
+   "customerattr": {
+      "message": "Attr:$tags$ must be with a 'data-' prefix.",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "maxlengtherr": {
+      "message": "Creating and setting 'maxLength' property for input[type=text].'maxLength' is case-sensitive in IE6. in $tags$",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "emptylinks": {
+      "message": "$number$ links must set href property.:hover is not effect.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "labelforerr": {
+      "message": "$tags$ labels:the 'ID' and 'for' property is not match.",
+	  "description": ".",
+	  "placeholders": {
+		"tags": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "spellingerr": {
+      "message": "Spelling error:'$worderr$',please change it to '$word$'.",
+	  "description": ".",
+	  "placeholders": {
+		"worderr": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"word" : {
+			"content" : "$2",
+			"example": "."
+		}
+	  }
+   },
+   "nosrchttps": {
+      "message": "$number$ tags must have a (https)'src' attribute.",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		}
+	  }
+   },
+   "repeatrequest": {
+      "message": "$type$ repeating loading.$detail$ .",
+	  "description": ".",
+	  "placeholders": {
+		"detail": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"type": {
+		  "content": "$2",
+		  "example": "."
+		}
+	  }
+   },   
+   "notitle": {
+      "message": "the <title> tag is missing."
+   },
+   "htmlnomin": {
+      "message": "HTML is not minified."
+   },
+   "tagunclosed": {
+      "message": "$number$ <$tagname$> tag was not closed",
+	  "description": ".",
+	  "placeholders": {
+		"number": {
+		  "content": "$1",
+		  "example": "."
+		},
+		"tagname": {
+			"content": "$2",
+			"example": "."
+		}
+	  }
+   },
+   "tab_cfg_lnk": {"message": "General"},
+	"tab_uicfg_lnk": {"message": "UI setting"},
+	"tt_rule_max": {"message": "Max Rules"},
+	"lbl_max_css": {"message": "Max CSS:"},
+	"lbl_max_js": {"message": "Max JS:"},
+	"lbl_max_cssbg": {"message": "Max background-image:"},
+	"lbl_max_elements": {"message": "Max DOM elements:"},
+	"tt_coding_rule": {"message": "Coding Rules"},
+	"lbl_tag_noclosed": {"message": "Check if the tag is closed."},
+	"lbl_html5_unsupport": {"message": "Check if the tag is supported in HTML5.<font>,<s>,<u> etc."},
+	"lbl_ecoding": {"message": "Check Encoding."},
+	"lbl_mixed_js": {"message": "Check mixed javascript block."},
+	"lbl_inline_style": {"message": "Check inline style."},
+	"lbl_inline_js": {"message": "Check inline js handler."},
+	"lbl_media_attr": {"message": "The <style> must have a 'media' attr."},
+	"lbl_alt_attr": {"message": "The <img> must have an 'alt' attr."},
+	"tt_form_rule": {"message": "Form Rules"},
+	"lbl_form_in_form": {"message": "The <form> cannot contain a tag <form>."},
+	"lbl_no_submit": {"message": "The <form> must contain an input[type=submit] element."},
+	"lbl_no_label": {"message": "Check if the input has a label for."},
+	"lbl_id_submit": {"message": "Check if the page contains an input[id=submit] element."},
+	"tt_other_rule": {"message": "Other Rules"},
+	"lbl_check_doctype": {"message": "Check doctype(compatMode)"},
+	"lbl_html5_dtd": {"message": "Check if HTML5 DTD"},
+	"lbl_http_mixed": {"message": "Check mixed http/https content."},
+	"lbl_no_import": {"message": "Check if using @import CSS."},
+	"lbl_inline_block": {"message": "The inline elements should not contain any block-level elements.Such as <a> contains a <div>."},
+	"lbl_ids": {"message": "Check ID unique."},
+	"lbl_minified_html": {"message": "HTML is not minified."},
+	"lbl_max_html": {"message": "Check HTML filesize."},
+	"lbl_minified_css": {"message": "CSS is not minified."},
+	"lbl_minified_js": {"message": "JS is not minified."},
+	"lbl_css_expression": {"message": "Check CSS expressions."},
+	"lbl_cookie": {"message": "Check the Cookie size."},
+	"lbl_border_color": {"message": "border-color："},
+	"lbl_border_style": {"message": "border-style："},
+	"lbl_border_width": {"message": "border-width："},
+	"lbl_bg_set": {"message": "background:"},
+	"lbl_bg_style": {"message": "URL or background css text."},
+	"btn_save": {"message": "Save.."},
+	"btn_reset_default": {"message": "Reset Defauls"},
+	"tip_bg_img": {"message": "Image url or background css text。"},
+	"btn_clear_custom": {"message": "Clear Config"},
+	"tip_saved": {"message": "Saved ^^"},
+	"tip_all_reset": {"message": "Reset ok ^^"}
+}
